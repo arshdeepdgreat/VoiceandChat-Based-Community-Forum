@@ -216,13 +216,12 @@ class _ChatState extends State<Chat> {
           child: IconTheme(
             data: IconThemeData(color: Theme.of(context).accentColor),
             child: Container(
-              margin: const EdgeInsets.symmetric(horizontal: 8.0),
+              margin: const EdgeInsets.symmetric(horizontal: 8.0,vertical: 5.0),
               child: Row(
                 children: <Widget>[
-
                   Flexible(
                     child: Container(
-                      height: 25,
+                      height: 35,
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.all(Radius.circular(15)),
                         color: Color.fromRGBO(220, 220, 220, 1),
@@ -232,29 +231,32 @@ class _ChatState extends State<Chat> {
                         controller: _textController,
                         onSubmitted: handleSubmitted,
                         decoration: InputDecoration.collapsed(
-                            hintText: "Send a message",
+                            hintText: "Ask a question...",
                             hintStyle: TextStyle(
-                            color: Colors.black54,fontSize: 16,
+                            color: Colors.black54,fontSize: 20,
                           ),
                         ),
                         style: TextStyle(
                           color: Colors.black54,
-                          fontSize: 16,
+                          fontSize: 20,
                         ),
                       ),
                     ),
                   ),
+                  IconButton(
+                    iconSize: 32.0,
+                    color: Color.fromRGBO(0, 191, 255, 1),
+                    icon: Icon(_isRecording ? Icons.mic_off : Icons.mic),
+                    onPressed: _isRecording ? stopStream : handleStream,
+                  ),
                   Container(
                     margin: EdgeInsets.symmetric(horizontal: 4.0),
                     child: IconButton(
+                      color: Color.fromRGBO(0, 191, 255, 1),
+                      iconSize: 32.0,
                       icon: Icon(Icons.send),
                       onPressed: () => handleSubmitted(_textController.text),
                     ),
-                  ),
-                  IconButton(
-                    iconSize: 30.0,
-                    icon: Icon(_isRecording ? Icons.mic_off : Icons.mic),
-                    onPressed: _isRecording ? stopStream : handleStream,
                   ),
                 ],
               ),
