@@ -1,0 +1,4 @@
+io/flutter/plugins/GeneratedPluginRegistrant.java
+ io.flutter.plugins.GeneratedPluginRegistrant
+com/example/voice_and_chat_assistant/BuildConfig.java
+ com.example.voice_and_chat_assistant.BuildConfig
