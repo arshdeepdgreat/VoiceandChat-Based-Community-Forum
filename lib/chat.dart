@@ -7,8 +7,7 @@ import 'package:rxdart/rxdart.dart';
 import 'package:sound_stream/sound_stream.dart';
 import 'package:dialogflow_grpc/dialogflow_grpc.dart';
 import 'package:dialogflow_grpc/generated/google/cloud/dialogflow/v2beta1/session.pb.dart';
-
-// TODO import Dialogflow
+import 'package:flutter_tts/flutter_tts.dart';
 
 
 
@@ -20,6 +19,8 @@ class Chat extends StatefulWidget {
 }
 
 class _ChatState extends State<Chat> {
+
+  final FlutterTts tts = FlutterTts();
   final List<ChatMessage> _messages = <ChatMessage>[];
   final TextEditingController _textController = TextEditingController();
   bool _isRecording = false;
@@ -44,7 +45,12 @@ class _ChatState extends State<Chat> {
     _audioStreamSubscription?.cancel();
     super.dispose();
   }
-
+  Future talk(String tex) async{
+    await tts.setLanguage("en-US");
+    await tts.setPitch(1);
+    await tts.speak(tex);
+    
+  }
   // Platform messages are asynchronous, so we initialize in an async method.
   Future<void> initPlugin() async {
     _recorderStatus = _recorder.status.listen((status) {
@@ -57,8 +63,6 @@ class _ChatState extends State<Chat> {
     await Future.wait([
       _recorder.initialize()
     ]);
-
-
 
     // TODO Get a Service account
     // Get a Service account
@@ -151,7 +155,6 @@ class _ChatState extends State<Chat> {
         String fulfillmentText = data.queryResult.fulfillmentText;
 
         if(fulfillmentText.isNotEmpty) {
-
           ChatMessage message = new ChatMessage(
             text: queryText,
             name: "You",
@@ -163,6 +166,7 @@ class _ChatState extends State<Chat> {
             name: "Bot",
             type: false,
           );
+          talk(fulfillmentText);
 
           _messages.insert(0, message);
           _textController.clear();

@@ -1,3 +1,4 @@
 # This is a generated file; do not edit or check into version control.
-dialogflow_grpc=/home/arshdeep/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/dialogflow_grpc-0.2.9/
-sound_stream=/home/arshdeep/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/sound_stream-0.2.0/
+dialogflow_grpc=/home/arshdeep/.pub-cache/hosted/pub.dartlang.org/dialogflow_grpc-0.2.9/
+flutter_tts=/home/arshdeep/.pub-cache/hosted/pub.dartlang.org/flutter_tts-3.2.2/
+sound_stream=/home/arshdeep/.pub-cache/hosted/pub.dartlang.org/sound_stream-0.2.0/

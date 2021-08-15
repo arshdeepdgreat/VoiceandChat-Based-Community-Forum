@@ -18,77 +18,87 @@
 15-->/home/arshdeep/Desktop/flutter_apps/voice_chatbot_forum_app/android/app/src/main/AndroidManifest.xml:5:5-71
 15-->/home/arshdeep/Desktop/flutter_apps/voice_chatbot_forum_app/android/app/src/main/AndroidManifest.xml:5:22-68
 16
-17    <application
-17-->/home/arshdeep/Desktop/flutter_apps/voice_chatbot_forum_app/android/app/src/main/AndroidManifest.xml:7:4-44:19
-18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-18-->[androidx.core:core:1.1.0] /home/arshdeep/.gradle/caches/transforms-2/files-2.1/2e94107f30f39be366a17347c2bf100b/core-1.1.0/AndroidManifest.xml:24:18-86
-19        android:debuggable="true"
-20        android:icon="@mipmap/ic_launcher"
-20-->/home/arshdeep/Desktop/flutter_apps/voice_chatbot_forum_app/android/app/src/main/AndroidManifest.xml:9:9-43
-21        android:label="voice_and_chat_assistant" >
-21-->/home/arshdeep/Desktop/flutter_apps/voice_chatbot_forum_app/android/app/src/main/AndroidManifest.xml:8:9-49
-22        <activity
-22-->/home/arshdeep/Desktop/flutter_apps/voice_chatbot_forum_app/android/app/src/main/AndroidManifest.xml:10:9-38:20
-23            android:name="com.example.voice_and_chat_assistant.MainActivity"
-23-->/home/arshdeep/Desktop/flutter_apps/voice_chatbot_forum_app/android/app/src/main/AndroidManifest.xml:11:13-41
-24            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
-24-->/home/arshdeep/Desktop/flutter_apps/voice_chatbot_forum_app/android/app/src/main/AndroidManifest.xml:14:13-163
-25            android:hardwareAccelerated="true"
-25-->/home/arshdeep/Desktop/flutter_apps/voice_chatbot_forum_app/android/app/src/main/AndroidManifest.xml:15:13-47
-26            android:launchMode="singleTop"
-26-->/home/arshdeep/Desktop/flutter_apps/voice_chatbot_forum_app/android/app/src/main/AndroidManifest.xml:12:13-43
-27            android:theme="@style/LaunchTheme"
-27-->/home/arshdeep/Desktop/flutter_apps/voice_chatbot_forum_app/android/app/src/main/AndroidManifest.xml:13:13-47
-28            android:windowSoftInputMode="adjustResize" >
-28-->/home/arshdeep/Desktop/flutter_apps/voice_chatbot_forum_app/android/app/src/main/AndroidManifest.xml:16:13-55
-29
-30            <!--
-31                 Specifies an Android theme to apply to this Activity as soon as
-32                 the Android process has started. This theme is visible to the user
-33                 while the Flutter UI initializes. After that, this theme continues
-34                 to determine the Window background behind the Flutter UI.
-35            -->
-36            <meta-data
-36-->/home/arshdeep/Desktop/flutter_apps/voice_chatbot_forum_app/android/app/src/main/AndroidManifest.xml:21:13-24:17
-37                android:name="io.flutter.embedding.android.NormalTheme"
-37-->/home/arshdeep/Desktop/flutter_apps/voice_chatbot_forum_app/android/app/src/main/AndroidManifest.xml:22:15-70
-38                android:resource="@style/NormalTheme" />
-38-->/home/arshdeep/Desktop/flutter_apps/voice_chatbot_forum_app/android/app/src/main/AndroidManifest.xml:23:15-52
-39            <!--
-40                 Displays an Android View that continues showing the launch screen
-41                 Drawable until Flutter paints its first frame, then this splash
-42                 screen fades out. A splash screen is useful to avoid any visual
-43                 gap between the end of Android's launch screen and the painting of
-44                 Flutter's first frame.
-45            -->
-46            <meta-data
-46-->/home/arshdeep/Desktop/flutter_apps/voice_chatbot_forum_app/android/app/src/main/AndroidManifest.xml:30:13-33:17
-47                android:name="io.flutter.embedding.android.SplashScreenDrawable"
-47-->/home/arshdeep/Desktop/flutter_apps/voice_chatbot_forum_app/android/app/src/main/AndroidManifest.xml:31:15-79
-48                android:resource="@drawable/launch_background" />
-48-->/home/arshdeep/Desktop/flutter_apps/voice_chatbot_forum_app/android/app/src/main/AndroidManifest.xml:32:15-61
-49
-50            <intent-filter>
-50-->/home/arshdeep/Desktop/flutter_apps/voice_chatbot_forum_app/android/app/src/main/AndroidManifest.xml:34:13-37:29
-51                <action android:name="android.intent.action.MAIN" />
-51-->/home/arshdeep/Desktop/flutter_apps/voice_chatbot_forum_app/android/app/src/main/AndroidManifest.xml:35:17-68
-51-->/home/arshdeep/Desktop/flutter_apps/voice_chatbot_forum_app/android/app/src/main/AndroidManifest.xml:35:25-66
-52
-53                <category android:name="android.intent.category.LAUNCHER" />
-53-->/home/arshdeep/Desktop/flutter_apps/voice_chatbot_forum_app/android/app/src/main/AndroidManifest.xml:36:17-76
-53-->/home/arshdeep/Desktop/flutter_apps/voice_chatbot_forum_app/android/app/src/main/AndroidManifest.xml:36:27-74
-54            </intent-filter>
-55        </activity>
-56        <!--
-57             Don't delete the meta-data below.
-58             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
-59        -->
-60        <meta-data
-60-->/home/arshdeep/Desktop/flutter_apps/voice_chatbot_forum_app/android/app/src/main/AndroidManifest.xml:41:9-43:33
-61            android:name="flutterEmbedding"
-61-->/home/arshdeep/Desktop/flutter_apps/voice_chatbot_forum_app/android/app/src/main/AndroidManifest.xml:42:13-44
-62            android:value="2" />
-62-->/home/arshdeep/Desktop/flutter_apps/voice_chatbot_forum_app/android/app/src/main/AndroidManifest.xml:43:13-30
-63    </application>
-64
-65</manifest>
+17    <queries>
+17-->[:flutter_tts] /home/arshdeep/Desktop/flutter_apps/voice_chatbot_forum_app/build/flutter_tts/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-13:15
+18        <intent>
+18-->[:flutter_tts] /home/arshdeep/Desktop/flutter_apps/voice_chatbot_forum_app/build/flutter_tts/intermediates/library_manifest/debug/AndroidManifest.xml:10:9-12:18
+19            <action android:name="android.intent.action.TTS_SERVICE" />
+19-->[:flutter_tts] /home/arshdeep/Desktop/flutter_apps/voice_chatbot_forum_app/build/flutter_tts/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-72
+19-->[:flutter_tts] /home/arshdeep/Desktop/flutter_apps/voice_chatbot_forum_app/build/flutter_tts/intermediates/library_manifest/debug/AndroidManifest.xml:11:21-69
+20        </intent>
+21    </queries>
+22
+23    <application
+23-->/home/arshdeep/Desktop/flutter_apps/voice_chatbot_forum_app/android/app/src/main/AndroidManifest.xml:7:4-44:19
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.1.0] /home/arshdeep/.gradle/caches/transforms-2/files-2.1/2e94107f30f39be366a17347c2bf100b/core-1.1.0/AndroidManifest.xml:24:18-86
+25        android:debuggable="true"
+26        android:icon="@mipmap/ic_launcher"
+26-->/home/arshdeep/Desktop/flutter_apps/voice_chatbot_forum_app/android/app/src/main/AndroidManifest.xml:9:9-43
+27        android:label="voice_and_chat_assistant" >
+27-->/home/arshdeep/Desktop/flutter_apps/voice_chatbot_forum_app/android/app/src/main/AndroidManifest.xml:8:9-49
+28        <activity
+28-->/home/arshdeep/Desktop/flutter_apps/voice_chatbot_forum_app/android/app/src/main/AndroidManifest.xml:10:9-38:20
+29            android:name="com.example.voice_and_chat_assistant.MainActivity"
+29-->/home/arshdeep/Desktop/flutter_apps/voice_chatbot_forum_app/android/app/src/main/AndroidManifest.xml:11:13-41
+30            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+30-->/home/arshdeep/Desktop/flutter_apps/voice_chatbot_forum_app/android/app/src/main/AndroidManifest.xml:14:13-163
+31            android:hardwareAccelerated="true"
+31-->/home/arshdeep/Desktop/flutter_apps/voice_chatbot_forum_app/android/app/src/main/AndroidManifest.xml:15:13-47
+32            android:launchMode="singleTop"
+32-->/home/arshdeep/Desktop/flutter_apps/voice_chatbot_forum_app/android/app/src/main/AndroidManifest.xml:12:13-43
+33            android:theme="@style/LaunchTheme"
+33-->/home/arshdeep/Desktop/flutter_apps/voice_chatbot_forum_app/android/app/src/main/AndroidManifest.xml:13:13-47
+34            android:windowSoftInputMode="adjustResize" >
+34-->/home/arshdeep/Desktop/flutter_apps/voice_chatbot_forum_app/android/app/src/main/AndroidManifest.xml:16:13-55
+35
+36            <!--
+37                 Specifies an Android theme to apply to this Activity as soon as
+38                 the Android process has started. This theme is visible to the user
+39                 while the Flutter UI initializes. After that, this theme continues
+40                 to determine the Window background behind the Flutter UI.
+41            -->
+42            <meta-data
+42-->/home/arshdeep/Desktop/flutter_apps/voice_chatbot_forum_app/android/app/src/main/AndroidManifest.xml:21:13-24:17
+43                android:name="io.flutter.embedding.android.NormalTheme"
+43-->/home/arshdeep/Desktop/flutter_apps/voice_chatbot_forum_app/android/app/src/main/AndroidManifest.xml:22:15-70
+44                android:resource="@style/NormalTheme" />
+44-->/home/arshdeep/Desktop/flutter_apps/voice_chatbot_forum_app/android/app/src/main/AndroidManifest.xml:23:15-52
+45            <!--
+46                 Displays an Android View that continues showing the launch screen
+47                 Drawable until Flutter paints its first frame, then this splash
+48                 screen fades out. A splash screen is useful to avoid any visual
+49                 gap between the end of Android's launch screen and the painting of
+50                 Flutter's first frame.
+51            -->
+52            <meta-data
+52-->/home/arshdeep/Desktop/flutter_apps/voice_chatbot_forum_app/android/app/src/main/AndroidManifest.xml:30:13-33:17
+53                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+53-->/home/arshdeep/Desktop/flutter_apps/voice_chatbot_forum_app/android/app/src/main/AndroidManifest.xml:31:15-79
+54                android:resource="@drawable/launch_background" />
+54-->/home/arshdeep/Desktop/flutter_apps/voice_chatbot_forum_app/android/app/src/main/AndroidManifest.xml:32:15-61
+55
+56            <intent-filter>
+56-->/home/arshdeep/Desktop/flutter_apps/voice_chatbot_forum_app/android/app/src/main/AndroidManifest.xml:34:13-37:29
+57                <action android:name="android.intent.action.MAIN" />
+57-->/home/arshdeep/Desktop/flutter_apps/voice_chatbot_forum_app/android/app/src/main/AndroidManifest.xml:35:17-68
+57-->/home/arshdeep/Desktop/flutter_apps/voice_chatbot_forum_app/android/app/src/main/AndroidManifest.xml:35:25-66
+58
+59                <category android:name="android.intent.category.LAUNCHER" />
+59-->/home/arshdeep/Desktop/flutter_apps/voice_chatbot_forum_app/android/app/src/main/AndroidManifest.xml:36:17-76
+59-->/home/arshdeep/Desktop/flutter_apps/voice_chatbot_forum_app/android/app/src/main/AndroidManifest.xml:36:27-74
+60            </intent-filter>
+61        </activity>
+62        <!--
+63             Don't delete the meta-data below.
+64             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+65        -->
+66        <meta-data
+66-->/home/arshdeep/Desktop/flutter_apps/voice_chatbot_forum_app/android/app/src/main/AndroidManifest.xml:41:9-43:33
+67            android:name="flutterEmbedding"
+67-->/home/arshdeep/Desktop/flutter_apps/voice_chatbot_forum_app/android/app/src/main/AndroidManifest.xml:42:13-44
+68            android:value="2" />
+68-->/home/arshdeep/Desktop/flutter_apps/voice_chatbot_forum_app/android/app/src/main/AndroidManifest.xml:43:13-30
+69    </application>
+70
+71</manifest>

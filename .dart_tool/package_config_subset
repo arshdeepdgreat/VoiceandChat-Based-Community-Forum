@@ -54,6 +54,10 @@ fixnum
 2.12
 file:///home/arshdeep/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/fixnum-1.0.0/
 file:///home/arshdeep/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/fixnum-1.0.0/lib/
+flutter_tts
+2.12
+file:///home/arshdeep/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_tts-3.2.2/
+file:///home/arshdeep/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_tts-3.2.2/lib/
 googleapis_auth
 2.12
 file:///home/arshdeep/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/googleapis_auth-1.1.0/
@@ -78,6 +82,10 @@ intl
 2.12
 file:///home/arshdeep/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/intl-0.17.0/
 file:///home/arshdeep/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/intl-0.17.0/lib/
+js
+2.12
+file:///home/arshdeep/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/js-0.6.3/
+file:///home/arshdeep/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/js-0.6.3/lib/
 matcher
 2.12
 file:///home/arshdeep/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/matcher-0.12.10/
@@ -154,4 +162,8 @@ flutter_test
 2.12
 file:///home/arshdeep/snap/flutter/common/flutter/packages/flutter_test/
 file:///home/arshdeep/snap/flutter/common/flutter/packages/flutter_test/lib/
+flutter_web_plugins
+2.12
+file:///home/arshdeep/snap/flutter/common/flutter/packages/flutter_web_plugins/
+file:///home/arshdeep/snap/flutter/common/flutter/packages/flutter_web_plugins/lib/
 2
