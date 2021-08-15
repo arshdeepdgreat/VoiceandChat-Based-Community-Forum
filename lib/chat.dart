@@ -298,7 +298,7 @@ class ChatMessage extends StatelessWidget {
               margin: const EdgeInsets.only(top: 5.0),
               child: Bubble(
                 radius: Radius.circular(15),
-                color: Colors.blue[300],
+                color: Colors.orangeAccent,
                 elevation: 0,
                 child: Padding(
                   padding: EdgeInsets.all(2),
@@ -316,7 +316,7 @@ class ChatMessage extends StatelessWidget {
                           child: Text(
                             text,
                             style: TextStyle(
-                              color: Colors.white,
+                              color: Colors.black87,
                               fontSize: 20,
                               fontWeight: FontWeight.bold,
                             ),
